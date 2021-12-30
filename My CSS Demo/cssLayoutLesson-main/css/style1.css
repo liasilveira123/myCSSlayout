@@ -1,0 +1,84 @@
+.liagrid{
+  display: grid;
+  width: 100%;
+  height: 1400px;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 47px auto auto auto;
+}
+
+.lia__topnav{
+  grid-column: 1 / span 3;
+  grid-row: 1;
+}
+
+.lia__topsec{
+  grid-column: 1 / span 3;
+  grid-row: 2;
+}
+
+.lia__main{
+  grid-column: 1 / span 2;
+  grid-row: 3;
+}
+
+.lia__side{
+  grid-column: 3;
+  grid-row: 3;
+}
+
+.lia__footer{
+  grid-column: 1 / span 3;
+  grid-row: 4;
+}
+
+.topnav__flex{
+  display:flex;
+
+}
+
+.flex__item{
+  padding: 15px;
+}
+
+.flexsec__item{
+  padding: 10px;
+}
+
+body, html{
+  margin: 0;
+  width: 100%;
+  height: auto;
+}
+
+.sec{
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.sec--cyan{
+  background-color: cyan;
+}
+
+.sec--magenta{
+  background-color: magenta;
+}
+
+.sec--orange{
+  background-color: orange;
+}
+
+.sec--red{
+  background-color: red;
+}
+
+.sec--lavender{
+  background-color: lavender;
+}
+
+.sec--yellow{
+  background-color: yellow;
+}
+
+.sec--green{
+  background-color: green;
+}
